@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389);
+
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "DM Sans", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+main {
+  background: #ffffff;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 5.2rem 6.5rem 6.5rem 6.5rem;
+
+  width: min(42.8rem, 90%);
+  margin-top: -12rem;
+  text-align: center;
+}
+
+/* screen1 */
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.4rem;
+  color: #34355b;
+}
+
+p {
+  color: #34355b;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.cookie {
+  border: none;
+  background: transparent;
+  transition: transform .3s;
+  display: flex;
+  justify-content: center;
+}
+
+.cookie:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* screen2 */
+
+.message {
+  background: #e4edf1;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.6rem;
+  padding: 2rem;
+
+  width: 30rem;
+  text-align: center;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 2.4rem;
+}
+
+.cookie2 {
+  justify-content: center;
+  display: flex;
+}
+
+.again {
+  color: white;
+  background: #ff9500;
+
+  padding: 16px;
+  gap: 10px;
+  border-radius: 0.6rem;
+  border: none;
+  margin-bottom: -8rem;
+
+  font-family: "Montserrat", sans-serif;
+
+  transition: background 0.3s;
+}
+
+.again:hover {
+  background: #d47d02;
+  cursor: pointer;
+}
